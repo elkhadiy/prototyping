@@ -20,6 +20,7 @@ prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\In
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h
+prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h
@@ -29,6 +30,8 @@ prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\In
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
+prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sd.h
+prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_sdmmc.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h
 prototype configuration\stm32f4xx_hal_ltdc.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h

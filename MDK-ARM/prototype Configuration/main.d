@@ -20,11 +20,14 @@ prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ha
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h
+prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h
+prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sdram.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h
+prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
 prototype configuration\main.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sd.h
@@ -50,3 +53,10 @@ prototype configuration\main.o: ..\Middlewares\ST\STM32_USB_Device_Library\Core\
 prototype configuration\main.o: ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_core.h
 prototype configuration\main.o: ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ioreq.h
 prototype configuration\main.o: ..\Middlewares\ST\STM32_USB_Device_Library\Core\Inc\usbd_ctlreq.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\GUI.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\GUI_ConfDefaults.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\Config\GUIConf.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\GUI_Type.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\LCD.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\Global.h
+prototype configuration\main.o: ..\Middlewares\ST\STemWin\inc\GUI_Version.h

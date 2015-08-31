@@ -25,11 +25,14 @@ prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h
+prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h
+prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sdram.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h
+prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_ltdc.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
 prototype configuration\diskio.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sd.h

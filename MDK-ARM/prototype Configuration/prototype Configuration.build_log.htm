@@ -8,7 +8,7 @@ Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
 License Information: Yeah Yeaaaah, netto, LIC=GUUAR-KBC1L-RWY2T-RQTCV-V2YWT-KRL3C
  
 Tool Versions:
-Toolchain:       DK-ARM Developers Kit  Version: 5.15.0
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
 Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.05 update 2 (build 169)
 Assembler:       Armasm.exe V5.05 update 2 (build 169)
@@ -22,17 +22,17 @@ Dialog DLL:      TCM.DLL V1.14.5.0
  
 <h2>Project:</h2>
 C:\Users\Anonyte\Documents\prototype\MDK-ARM\prototype.uvprojx
-Project File Date:  08/28/2015
+Project File Date:  08/31/2015
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'prototype Configuration'
 compiling main.c...
-..\Src\main.c(211): warning:  #177-D: function "SDRAM_Initialization_Sequence" was declared but never referenced
-  static void SDRAM_Initialization_Sequence(SDRAM_HandleTypeDef *hsdram, FMC_SDRAM_CommandTypeDef *Command)
+..\Src\main.c(213): warning:  #177-D: function "MX_DMA2D_Init" was declared but never referenced
+  void MX_DMA2D_Init(void)
 ..\Src\main.c: 1 warning, 0 errors
 linking...
-Program Size: Code=20732 RO-data=1880 RW-data=412 ZI-data=6892  
+Program Size: Code=23628 RO-data=1880 RW-data=428 ZI-data=13268  
 "prototype Configuration\prototype Configuration.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Collection of Component include folders:</h2>

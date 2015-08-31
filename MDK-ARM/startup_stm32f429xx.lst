@@ -100,23 +100,23 @@ ARM Macro Assembler    Page 2
    56 00000400         ;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
    57 00000400         ; </h>
    58 00000400         
-   59 00000400 00000800 
+   59 00000400 00002000 
                        Heap_Size
-                               EQU              0x00000800
+                               EQU              0x00002000
    60 00000400         
    61 00000400                 AREA             HEAP, NOINIT, READWRITE, ALIGN=
 3
    62 00000000         __heap_base
    63 00000000         Heap_Mem
                                SPACE            Heap_Size
-   64 00000800         __heap_limit
-   65 00000800         
-   66 00000800                 PRESERVE8
-   67 00000800                 THUMB
-   68 00000800         
-   69 00000800         
-   70 00000800         ; Vector Table Mapped to Address 0 at Reset
-   71 00000800                 AREA             RESET, DATA, READONLY
+   64 00002000         __heap_limit
+   65 00002000         
+   66 00002000                 PRESERVE8
+   67 00002000                 THUMB
+   68 00002000         
+   69 00002000         
+   70 00002000         ; Vector Table Mapped to Address 0 at Reset
+   71 00002000                 AREA             RESET, DATA, READONLY
    72 00000000                 EXPORT           __Vectors
    73 00000000                 EXPORT           __Vectors_End
    74 00000000                 EXPORT           __Vectors_Size
@@ -907,16 +907,16 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend="prototype configuration\startup_stm32f429xx.d" -o"prototype co
 nfiguration\startup_stm32f429xx.o" -IC:\Users\Anonyte\Documents\prototype\MDK-A
 RM\RTE -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\S
-TM32F4xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --p
+TM32F4xx\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1"
 
 
 
 ARM Macro Assembler    Page 15 
 
 
-redefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 515" --predefi
-ne="STM32F429xx SETA 1" --list=startup_stm32f429xx.lst ..\Drivers\CMSIS\Device\
-ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
+ --predefine="__UVISION_VERSION SETA 515" --predefine="STM32F429xx SETA 1" --li
+st=startup_stm32f429xx.lst ..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Template
+s\arm\startup_stm32f429xx.s
 
 
 
@@ -988,7 +988,7 @@ arm\startup_stm32f429xx.s
       At line 443 in file ..\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates
 \arm\startup_stm32f429xx.s
 Comment: __heap_base used once
-__heap_limit 00000800
+__heap_limit 00002000
 
 Symbol: __heap_limit
    Definitions
@@ -2390,7 +2390,7 @@ arm\startup_stm32f429xx.s
 ARM Macro Assembler    Page 1 Alphabetic symbol ordering
 Absolute symbols
 
-Heap_Size 00000800
+Heap_Size 00002000
 
 Symbol: Heap_Size
    Definitions
@@ -2448,4 +2448,4 @@ Symbol: __main
 \arm\startup_stm32f429xx.s
 Comment: __main used once
 2 symbols
-454 symbols in table
+453 symbols in table

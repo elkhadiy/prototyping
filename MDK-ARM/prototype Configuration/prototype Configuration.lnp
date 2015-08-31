@@ -28,6 +28,9 @@
 "prototype configuration\stm32f4xx_hal_pcd_ex.o"
 "prototype configuration\stm32f4xx_hal_sd.o"
 "prototype configuration\stm32f4xx_ll_sdmmc.o"
+"prototype configuration\stm32f4xx_hal_crc.o"
+"prototype configuration\stm32f4xx_hal_dma2d.o"
+"prototype configuration\stm32f4xx_hal_ltdc.o"
 "prototype configuration\system_stm32f4xx.o"
 "prototype configuration\usbd_core.o"
 "prototype configuration\usbd_cdc.o"
@@ -39,6 +42,10 @@
 "prototype configuration\syscall.o"
 "prototype configuration\unicode.o"
 "prototype configuration\sd_diskio.o"
+"prototype configuration\guiconf.o"
+"prototype configuration\lcdconf.o"
+"prototype configuration\gui_x.o"
+"..\Middlewares\ST\STemWin\Lib\STemWin526_CM4_Keil.lib"
 --library_type=microlib --strict --scatter "prototype Configuration\prototype Configuration.sct"
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
